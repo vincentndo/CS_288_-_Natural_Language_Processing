@@ -1,0 +1,51 @@
+$w city $w kb-tallahassee COMPLETE_LAMBDA_$w DONE
+$w city $w kb-miami COMPLETE_LAMBDA_$w DONE
+$w state $w kb-florida COMPLETE_LAMBDA_$w DONE
+$w state $w kb-miami COMPLETE_LAMBDA_$w DONE
+$w state $w kb-tallahassee COMPLETE_LAMBDA_$w DONE
+$w island $w kb-key_largo COMPLETE_LAMBDA_$w DONE
+$w island $w kb-miami COMPLETE_LAMBDA_$w DONE
+$w park $w kb-tallahassee COMPLETE_LAMBDA_$w DONE
+$w city $w kb-tallahassee $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w city $w kb-miami $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w island $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w park $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w park $w $x southwest-rel $x kb-miami COMPLETE_LAMBDA_$w DONE
+$w park $w $x northwest-rel $x kb-key_largo COMPLETE_LAMBDA_$w DONE
+$w city $w $x north-rel $x kb-key_largo COMPLETE_LAMBDA_$w DONE
+$w city $w $x southeast-rel $x kb-tallahassee COMPLETE_LAMBDA_$w DONE
+$w city $w $x northwest-rel $x kb-daytona_beach COMPLETE_LAMBDA_$w DONE
+$w park $w $x southeast-rel $x kb-tallahassee $w $y northwest-rel $y kb-key_largo COMPLETE_LAMBDA_$w DONE
+$w city $w $x north-rel $x kb-key_largo $w $y east-rel $y kb-tallahassee COMPLETE_LAMBDA_$w DONE
+$w park $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w beach $w city $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w $x capital-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w state $x $w capital-rel $x kb-tallahassee COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-miami COMPLETE_LAMBDA_$w DONE
+$w park $w $x east-rel $x kb-miami COMPLETE_LAMBDA_$w DONE
+$w beach $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w island $w $x south-rel $x kb-everglades_national_park COMPLETE_LAMBDA_$w DONE
+$w beach $w $x in-rel $x kb-florida COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-key_largo COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-daytona_beach COMPLETE_LAMBDA_$w DONE
+$w kb-key_largo $w island COMPLETE_LAMBDA_$w DONE
+$w state COMPLETE_LAMBDA_$w DONE
+$w state $w $x west-rel $x kb-georgia COMPLETE_LAMBDA_$w DONE
+$w state $w $x east-rel $x kb-alabama COMPLETE_LAMBDA_$w DONE
+$w state $w $x border-rel $x kb-alabama COMPLETE_LAMBDA_$w DONE
+$w state $w $x border-rel $x kb-georgia COMPLETE_LAMBDA_$w DONE
+$w city COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x kb-alabama COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x kb-georgia COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-atlanta COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-macon COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-montgomery COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-birmingham COMPLETE_LAMBDA_$w DONE
+$w city $w $x south-rel $x kb-birmingham COMPLETE_LAMBDA_$w DONE
+$w city $w $x south-rel $x kb-atlanta COMPLETE_LAMBDA_$w DONE
+$w city $w $x north-rel $x kb-macon COMPLETE_LAMBDA_$w DONE
+$w city $w $x north-rel $x kb-montgomery COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x state $x $y border-rel $y kb-alabama COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x state $x $y border-rel $y kb-georgia COMPLETE_LAMBDA_$w DONE
+$w city $w $x north-rel $x kb-montgomery $w $y in-rel $y state $y $z border-rel $z kb-georgia COMPLETE_LAMBDA_$w DONE

@@ -1,0 +1,41 @@
+$w state COMPLETE_LAMBDA_$w DONE
+$w $x capital-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w city $w $x on-rel $x ocean COMPLETE_LAMBDA_$w DONE
+$w ocean COMPLETE_LAMBDA_$w DONE
+$w $x capital-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w kb-west_virginia $w $x abut-rel $x kb-atlantic_ocean COMPLETE_LAMBDA_$w DONE
+$w state $w $x south-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w state $w $x east-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w state $w $x border-rel $x kb-atlantic_ocean COMPLETE_LAMBDA_$w DONE
+$w city $w $x along-rel $x kb-atlantic_ocean COMPLETE_LAMBDA_$w DONE
+$w city $w $x near-rel $x kb-richmond COMPLETE_LAMBDA_$w DONE
+$w state $w $x west-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w state $w $x south-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w city $w $x near-rel $x kb-richmond COMPLETE_LAMBDA_$w DONE
+$w city $w $x southeast-rel $x kb-richmond COMPLETE_LAMBDA_$w DONE
+$w state $w $x on-rel $x kb-atlantic_ocean COMPLETE_LAMBDA_$w DONE
+$w state $w $x contain-rel $x kb-virginia_beach COMPLETE_LAMBDA_$w DONE
+$w ocean $w $x border-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w ocean $w $x border-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w $x capital-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w kb-richmond $w $x capital-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w kb-virginia $w $x inside-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w kb-virginia_beach $w $x inside-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w kb-richmond $w $x capital-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w kb-virginia_beach $w $x in-rel $x kb-atlantic_ocean COMPLETE_LAMBDA_$w DONE
+$w kb-atlantic_ocean $w $x in-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w kb-richmond $w $x in-rel $x kb-atlantic_ocean COMPLETE_LAMBDA_$w DONE
+$w kb-atlantic_ocean $w $x in-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w state COMPLETE_LAMBDA_$w DONE
+$w park COMPLETE_LAMBDA_$w DONE
+$w lake COMPLETE_LAMBDA_$w DONE
+$w $x capital-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w city $w $x in-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w state $w $x west-rel $x kb-virginia COMPLETE_LAMBDA_$w DONE
+$w state $x $w in-rel $x kb-monongahela_national_forest COMPLETE_LAMBDA_$w DONE
+$w park $w $x in-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w kb-richmond $w $x east-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
+$w kb-virginia $w $x east-rel $x kb-west_virginia COMPLETE_LAMBDA_$w DONE
